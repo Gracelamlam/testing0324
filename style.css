@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	scroll-behavior: smooth;
+}
+
+body, html {
+	overflow-x: hidden;
+}
+
+body {
+	box-sizing:border-box;
+	padding:0;
+	margin: 0;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.nav {
+	background-color: antiquewhite;
+	position: fixed;
+	top:0;
+	width: 100%;
+	padding: 10px 0;
+	text-transform: uppercase;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.nav .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav p {
+	display: inline-block;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.nav ul {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.nav ul li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.nav a {
+	text-decoration: none;
+	color:peru;
+	font-weight: 100;
+}
+
+.nav a:hover {
+	background-color: antiquewhite;
+	transform: scale(1.5);
+}
+
+.header {
+	height: 700px;
+	background-image: url("images/bg-header.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 0;
+}
+
+.header .container {
+	padding: 300px;
+}
+
+.header h1 {
+	font-size: 80px;
+	color:cadetblue;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin: 0;
+	padding: 0;
+}
+
+.header span {
+	display: block;
+	color: burlywood;
+	font-size: 50px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin: auto;
+}
+
+.about-1 {
+	height: 700px;
+	background-image:url("images/bg-about.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 0px;
+	text-align: center
+}
+
+.about-1 .container {
+ padding: 100px;
+}
+
+.about-1 h2 {
+	font-size: 80px;
+	color: aliceblue;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.about-1 p {
+	display: block;
+	color: aliceblue;
+	font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.about-2 {
+	display: flex;
+	height: 400px;
+	background-color: darkslategray;
+	color:antiquewhite;
+	padding: 100px 0;
+}
+
+.about-2 .left {
+	display: inline-block;
+	width: 500px;
+	vertical-align: middle;
+	line-height: 1.6;
+	margin-left: 0;
+}
+
+.about-2 .right {
+	display: inline-block;
+	width: 300px;
+	vertical-align: middle;
+	margin-left: 40px;
+}
+
+.about-2 img {
+	max-width: 100%;
+	height: auto;
+	margin-right: 90px;
+}
+
+.about-3 img {
+	padding: 40px;
+}
+
+.top-part {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.about-3 .right {
+	padding-top: 200px;
+	color: darkgreen;
+}
+
+.bottom-part {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	flex-direction: row-reverse;
+}
+
+.bottom-part .right {
+	padding: 150px;
+	padding-left: 400px;
+	color: darkgreen;
+}
+
+.bottom-part .left {
+	padding-right: 300px
+}
+
+.footer {
+	background-image: url("images/bg-section.jpg");
+	background-size: cover;
+	height: 700px;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.footer h1 {
+	font-size: 48px;
+}
+
+.footer a {
+	margin-top: 25px;
+	display: inline-block;
+	background-color: mediumaquamarine;
+	padding: 15px 30px;
+	border-radius: 50px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all .5s ease;
+}
+
+.footer a:hover {
+	background:red;
+	transform: scale(1.5);
+}
